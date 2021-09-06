@@ -28,7 +28,7 @@ class SingleComment extends React.Component {
                 headers: {
                     "Content-Type": "application/json",
                     Authorization:
-                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGFlNDE0YWNlYWY0ODAwMTVjOTE4NzAiLCJpYXQiOjE2MjI3OTI5NzYsImV4cCI6MTYyNDAwMjU3Nn0.-xxIE6ksy_dDMiZ2u_RAQDm1PHcxYsNoPCkI3iWH6m4",
+                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFlNGYyYTA2MTBjYjAwMTVkYTJhOGYiLCJpYXQiOjE2MzA0MTc4MDcsImV4cCI6MTYzMTYyNzQwN30.Dh6ItIr-GyHW8zOAxtALq3iJbt27r6NI5h-DnolDXJk",
                 },
             }
         );
@@ -51,7 +51,7 @@ class SingleComment extends React.Component {
                     headers: {
                         "Content-Type": "application/json",
                         Authorization:
-                            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGFlNDE0YWNlYWY0ODAwMTVjOTE4NzAiLCJpYXQiOjE2MjI3OTI5NzYsImV4cCI6MTYyNDAwMjU3Nn0.-xxIE6ksy_dDMiZ2u_RAQDm1PHcxYsNoPCkI3iWH6m4",
+                            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFlNGYyYTA2MTBjYjAwMTVkYTJhOGYiLCJpYXQiOjE2MzA0MTc4MDcsImV4cCI6MTYzMTYyNzQwN30.Dh6ItIr-GyHW8zOAxtALq3iJbt27r6NI5h-DnolDXJk",
                     },
                     body: JSON.stringify(this.state.comment)
                 })
